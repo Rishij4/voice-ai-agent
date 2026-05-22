@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+redis
+python-dotenv
+groq
+faster-whisper
+gtts
+apscheduler
