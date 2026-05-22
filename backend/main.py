@@ -12,7 +12,7 @@ from app.api.routes import router as api_router
 from app.api.websocket import router as ws_router
 from app.utils.latency_logger import LatencyLogger
 app = FastAPI()
-app.mount("/static", StaticFiles(directory="."), name="static")
+#app.mount("/static", StaticFiles(directory="."), name="static")
 Base.metadata.create_all(bind=engine)
 app.add_middleware(
     CORSMiddleware,
