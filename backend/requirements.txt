@@ -7,3 +7,4 @@ groq
 faster-whisper
 gtts
 apscheduler
+psycopg2-binary
